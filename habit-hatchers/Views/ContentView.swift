@@ -9,30 +9,31 @@ import SwiftUI
 import UIKit
 extension UIScrollView {  open override var clipsToBounds: Bool {   get { false }   set { }  } }
 
-struct ContentView: View {  
+struct ContentView: View {
     // State Variables
-    @State private var fulfilled = 0
-    @State private var numOfEggs = 3
+    @State private var collected = getTotalCollected()
+    @State private var numOfEggs = getItemCount(fileName: "currentHabitData.json")
     @State private var displayState = true
     @State private var displayHabit = " "
     @State private var showAddEggView = false
-
+    @State private var showSettingsView = false
+    @State private var loadJsonData = true
     
+    // For Array of Habit Structs (loaded on initialization)
+    @StateObject var viewModel = HabitViewModel()
     
-    
-    
-    
-    @State private var habits: [Habit] = [
-        Habit(habitName: "Run"),
-        Habit(habitName: "Fight"),
-        Habit(habitName: "Jump")
-    ]
+    private let calendarDayChangedObserver = NotificationCenter.default.addObserver(forName: .NSCalendarDayChanged, object: nil, queue: .main) { _ in
+        print("Calendar day changed - Eggs have been reset")
+        resetStreak()
+        resetIsDisplayed()
+    }
     
     // ContentView
     var body: some View {
-        NavigationView {
+        NavigationStack {
             // Main Chicken
-            let chickenImageName = fulfilled == numOfEggs ? "chicken_in_egg" : "chicken_in_egg_sad"
+            //            let chickenImageName = fulfilled == numOfEggs ? "chicken_in_egg" : "chicken_in_egg_sad"
+            let chickenImageName = "chicken_in_egg"
             
             ZStack {
                 // ContentView Background
@@ -48,6 +49,7 @@ struct ContentView: View {
                         Spacer().frame(maxWidth: 300)
                         Button(action: {
                             print("Settings tapped")
+                            showSettingsView = true
                         }) {
                             Image("settings")
                                 .resizable()
@@ -64,20 +66,22 @@ struct ContentView: View {
                     // ScrollView
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: -10) {
-                            if numOfEggs == 0 {
-                                // FIX THIS (when all eggs are removed)
-                                //                                HabitEggButton(habit: .constant(Habit(habitName: "Temp"))).opacity(0)
-                            } else {
-                                ForEach($habits) { $habit in
+                            if viewModel.isLoading {
+                                Text("Loading data...")
+                            }
+                            else {
+                                ForEach($viewModel.habits) { $habit in
                                     if habit.isDisplayed {
-                                        HabitEggButton(habit: $habit, displayHabit: $displayHabit)
+                                        HabitEggButton(viewModel: viewModel, habit: $habit, displayHabit: $displayHabit, collected: $collected, numOfEggs: $numOfEggs)
                                     }
                                 }
                                 
                                 // Add HabitEgg Button
                                 Button(action: {
                                     print("Add tapped")
+                                    print(String(collected))
                                     showAddEggView = true
+                                    
                                 }) {
                                     Image("add-button")
                                         .resizable()
@@ -90,7 +94,10 @@ struct ContentView: View {
                     }
                     .offset(x: 25)
                     .sheet(isPresented: $showAddEggView) {
-                        AddEggView()
+                        AddEggView(viewModel: viewModel, numOfEggs: $numOfEggs)
+                    }
+                    .sheet(isPresented: $showSettingsView) {
+                        SettingsView(viewModel: viewModel, numOfEggs: $numOfEggs, displayHabit: $displayHabit)
                     }
                     
                     // Habit Text Display
@@ -104,7 +111,6 @@ struct ContentView: View {
         }.navigationBarHidden(true)
     }
 }
-
 
 #Preview {
     ContentView()

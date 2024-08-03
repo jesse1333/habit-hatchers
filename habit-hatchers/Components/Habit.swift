@@ -13,5 +13,11 @@ struct Habit : Identifiable, Codable {
     var id = UUID()
     var habitName: String
     var isDisplayed = true
+    var habitType: String
+    var totalCollected: Int
+    var streak: Int
+    var daysKept: Int
+    var startDate: String
+    var endDate: String
 }
 

@@ -14,7 +14,6 @@ struct SplashScreenView: View {
     
     var body: some View {
         ZStack {
-            
             Color(#colorLiteral(red: 0.9294117647, green: 0.9294117647, blue: 0.9137254902, alpha: 1)).ignoresSafeArea()
             
             Text("Habit\nHatchers!")

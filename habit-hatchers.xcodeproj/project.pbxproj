@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0C09635C2BFE7ADB001A5135 /* HabitEggButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C09635B2BFE7ADB001A5135 /* HabitEggButton.swift */; };
+		0C4A51672C3BC60600E8B007 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A51662C3BC60600E8B007 /* SettingsView.swift */; };
+		0C4A51692C3D655600E8B007 /* HabitInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A51682C3D655600E8B007 /* HabitInfoView.swift */; };
+		0C4A516B2C3F9C6900E8B007 /* SettingsEggElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A516A2C3F9C6900E8B007 /* SettingsEggElement.swift */; };
+		0C4A51712C4B260400E8B007 /* EggDeletionConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A51702C4B260400E8B007 /* EggDeletionConfirmationView.swift */; };
 		0C5626A22C328C8F0014FBCA /* MultiGestureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5626A12C328C8F0014FBCA /* MultiGestureButton.swift */; };
+		0C6415362C3650BC000B2776 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6415352C3650BC000B2776 /* HabitViewModel.swift */; };
 		0CABD85D2C0E71C400282FAF /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CABD85C2C0E71C400282FAF /* SplashScreenView.swift */; };
 		0CABD8672C0E748E00282FAF /* Inika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CABD8662C0E748E00282FAF /* Inika-Regular.ttf */; };
 		0CABD86C2C0E761900282FAF /* Inika-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CABD86B2C0E761900282FAF /* Inika-Bold.ttf */; };
@@ -22,6 +27,8 @@
 		0CDB6B5B2BF98AFE00871BCF /* habit_hatchersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB6B5A2BF98AFE00871BCF /* habit_hatchersUITestsLaunchTests.swift */; };
 		0CDF802D2C33CBB50064FCA6 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF802C2C33CBB50064FCA6 /* Habit.swift */; };
 		0CDF80352C3521850064FCA6 /* AddEggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF80342C3521850064FCA6 /* AddEggView.swift */; };
+		0CDF803D2C3648430064FCA6 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF803C2C3648430064FCA6 /* FileUtils.swift */; };
+		0CE068AF2C55286C00078176 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE068AE2C55286C00078176 /* NotificationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +50,18 @@
 
 /* Begin PBXFileReference section */
 		0C09635B2BFE7ADB001A5135 /* HabitEggButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitEggButton.swift; sourceTree = "<group>"; };
+		0C4A51662C3BC60600E8B007 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0C4A51682C3D655600E8B007 /* HabitInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInfoView.swift; sourceTree = "<group>"; };
+		0C4A516A2C3F9C6900E8B007 /* SettingsEggElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEggElement.swift; sourceTree = "<group>"; };
+		0C4A51702C4B260400E8B007 /* EggDeletionConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggDeletionConfirmationView.swift; sourceTree = "<group>"; };
 		0C5626A12C328C8F0014FBCA /* MultiGestureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiGestureButton.swift; sourceTree = "<group>"; };
+		0C6415352C3650BC000B2776 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
 		0CABD85C2C0E71C400282FAF /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		0CABD8662C0E748E00282FAF /* Inika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inika-Regular.ttf"; sourceTree = "<group>"; };
 		0CABD86A2C0E751200282FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0CABD86B2C0E761900282FAF /* Inika-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inika-Bold.ttf"; sourceTree = "<group>"; };
 		0CABD86D2C105C5E00282FAF /* HabitLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLaunchScreen.swift; sourceTree = "<group>"; };
-		0CDB6B3A2BF98AFD00871BCF /* habit-hatchers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-hatchers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDB6B3A2BF98AFD00871BCF /* Habit Hatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Hatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDB6B3D2BF98AFD00871BCF /* habit_hatchersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_hatchersApp.swift; sourceTree = "<group>"; };
 		0CDB6B3F2BF98AFD00871BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CDB6B412BF98AFE00871BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +73,8 @@
 		0CDB6B5A2BF98AFE00871BCF /* habit_hatchersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_hatchersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0CDF802C2C33CBB50064FCA6 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		0CDF80342C3521850064FCA6 /* AddEggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEggView.swift; sourceTree = "<group>"; };
+		0CDF803C2C3648430064FCA6 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		0CE068AE2C55286C00078176 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4A51642C3BC58900E8B007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF80342C3521850064FCA6 /* AddEggView.swift */,
+				0C4A51662C3BC60600E8B007 /* SettingsView.swift */,
+				0C4A51702C4B260400E8B007 /* EggDeletionConfirmationView.swift */,
+				0C4A51682C3D655600E8B007 /* HabitInfoView.swift */,
+				0CABD86D2C105C5E00282FAF /* HabitLaunchScreen.swift */,
+				0CABD85C2C0E71C400282FAF /* SplashScreenView.swift */,
+				0CDB6B3F2BF98AFD00871BCF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C4A51652C3BC5AA00E8B007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0C6415352C3650BC000B2776 /* HabitViewModel.swift */,
+				0CDF802C2C33CBB50064FCA6 /* Habit.swift */,
+				0CDF803C2C3648430064FCA6 /* FileUtils.swift */,
+				0C5626A12C328C8F0014FBCA /* MultiGestureButton.swift */,
+				0C09635B2BFE7ADB001A5135 /* HabitEggButton.swift */,
+				0C4A516A2C3F9C6900E8B007 /* SettingsEggElement.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		0CABD8652C0E746E00282FAF /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +151,7 @@
 		0CDB6B3B2BF98AFD00871BCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CDB6B3A2BF98AFD00871BCF /* habit-hatchers.app */,
+				0CDB6B3A2BF98AFD00871BCF /* Habit Hatch.app */,
 				0CDB6B4A2BF98AFE00871BCF /* habit-hatchersTests.xctest */,
 				0CDB6B542BF98AFE00871BCF /* habit-hatchersUITests.xctest */,
 			);
@@ -123,13 +164,9 @@
 				0CABD86A2C0E751200282FAF /* Info.plist */,
 				0CABD8652C0E746E00282FAF /* Font */,
 				0CDB6B3D2BF98AFD00871BCF /* habit_hatchersApp.swift */,
-				0CDB6B3F2BF98AFD00871BCF /* ContentView.swift */,
-				0CDF802C2C33CBB50064FCA6 /* Habit.swift */,
-				0CDF80342C3521850064FCA6 /* AddEggView.swift */,
-				0CABD85C2C0E71C400282FAF /* SplashScreenView.swift */,
-				0CABD86D2C105C5E00282FAF /* HabitLaunchScreen.swift */,
-				0C09635B2BFE7ADB001A5135 /* HabitEggButton.swift */,
-				0C5626A12C328C8F0014FBCA /* MultiGestureButton.swift */,
+				0CE068AD2C55285A00078176 /* Handlers */,
+				0C4A51642C3BC58900E8B007 /* Views */,
+				0C4A51652C3BC5AA00E8B007 /* Components */,
 				0CDB6B412BF98AFE00871BCF /* Assets.xcassets */,
 				0CDB6B432BF98AFE00871BCF /* Preview Content */,
 			);
@@ -161,6 +198,14 @@
 			path = "habit-hatchersUITests";
 			sourceTree = "<group>";
 		};
+		0CE068AD2C55285A00078176 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				0CE068AE2C55286C00078176 /* NotificationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,7 +223,7 @@
 			);
 			name = "habit-hatchers";
 			productName = "habit-hatchers";
-			productReference = 0CDB6B3A2BF98AFD00871BCF /* habit-hatchers.app */;
+			productReference = 0CDB6B3A2BF98AFD00871BCF /* Habit Hatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CDB6B492BF98AFE00871BCF /* habit-hatchersTests */ = {
@@ -294,13 +339,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDF80352C3521850064FCA6 /* AddEggView.swift in Sources */,
+				0C4A51692C3D655600E8B007 /* HabitInfoView.swift in Sources */,
 				0CDB6B402BF98AFD00871BCF /* ContentView.swift in Sources */,
 				0CDB6B3E2BF98AFD00871BCF /* habit_hatchersApp.swift in Sources */,
+				0CDF803D2C3648430064FCA6 /* FileUtils.swift in Sources */,
 				0C09635C2BFE7ADB001A5135 /* HabitEggButton.swift in Sources */,
 				0C5626A22C328C8F0014FBCA /* MultiGestureButton.swift in Sources */,
+				0CE068AF2C55286C00078176 /* NotificationHandler.swift in Sources */,
+				0C6415362C3650BC000B2776 /* HabitViewModel.swift in Sources */,
 				0CABD85D2C0E71C400282FAF /* SplashScreenView.swift in Sources */,
 				0CDF802D2C33CBB50064FCA6 /* Habit.swift in Sources */,
+				0C4A51712C4B260400E8B007 /* EggDeletionConfirmationView.swift in Sources */,
 				0CABD86E2C105C5E00282FAF /* HabitLaunchScreen.swift in Sources */,
+				0C4A516B2C3F9C6900E8B007 /* SettingsEggElement.swift in Sources */,
+				0C4A51672C3BC60600E8B007 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +531,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tzojesse.habit-hatchers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Habit Hatch";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,7 +561,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tzojesse.habit-hatchers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Habit Hatch";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

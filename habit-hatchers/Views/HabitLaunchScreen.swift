@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SwiftUIView: View {
+struct HabitLaunchScreen: View {
     @State private var inputHabit: String = ""
     @State private var habitOne: String = ""
     @State private var habitTwo: String = ""
@@ -9,7 +9,7 @@ struct SwiftUIView: View {
     @State private var switchScreen: Bool = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 Color(#colorLiteral(red: 0.9294117647, green: 0.9294117647, blue: 0.9137254902, alpha: 1)).ignoresSafeArea()
                 
@@ -132,6 +132,6 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        HabitLaunchScreen()
     }
 }
