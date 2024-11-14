@@ -14,9 +14,20 @@
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** Swift, SwiftUI, XCode, Figma
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I built this app using Swift and SwiftUI within the Xcode IDE. To ensure an engaging and user-friendly experience, I began by designing the UI/UX in Figma. I then implemented this design in Swift, managing key elements such as view transitions, user inputs, and iPhone notifications. Testing was conducted thoroughly by deploying the app on my own iPhone through Xcode, allowing me to fine-tune the user experience.
+
+Current features of the app include:
+
+- **Adding Habit Eggs**: Users can add habits in the form of "eggs," which align with the app's playful theme.
+- **Pop-Up Modals**: Easy-to-access pop-ups display a list of all habits, providing a quick overview for users.
+- **Habit Metadata Tracking**: The app records essential habit data, such as total habits collected, streaks, creation date, and deletion date.
+- **Habit Deletion and Recovery**: Users can delete habits, but they also have the option to recover them, offering flexibility in habit management.
+- **Persistent Habit Storage**: Habit data is stored in JSON format, ensuring that progress is maintained across app sessions.
+- **System Notification Reminders**: Reminders can be set, prompting users when it's time to complete or check in on their habits.
+
+
 
 ## Optimizations
 *(optional)*
