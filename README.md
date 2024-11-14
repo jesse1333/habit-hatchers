@@ -16,11 +16,13 @@
 
 **Tech used:** Swift, SwiftUI, XCode, Figma
 
-I built this app using Swift and SwiftUI within the Xcode IDE. I began by designing the UI/UX in Figma, creating a user intuitive layout to be 
+I built this app using Swift and SwiftUI within the Xcode IDE. I began by designing the UI/UX in Figma, creating intuitive user layouts
 <img width="855" alt="Screenshot 2024-11-14 at 3 46 18 PM" src="https://github.com/user-attachments/assets/f3804a8f-d53f-49ef-87c3-7797b65d95e3">
 
-
 I then implemented this design in Swift, managing key elements such as view transitions, user inputs, and iPhone notifications. Testing was conducted thoroughly by deploying the app on my own iPhone through Xcode, allowing me to fine-tune the user experience.
+
+<img width="1512" alt="Screenshot 2024-11-14 at 3 49 02 PM" src="https://github.com/user-attachments/assets/01bcd549-3976-493a-9e89-81f7528a8901">
+
 
 Current features of the app include:
 
