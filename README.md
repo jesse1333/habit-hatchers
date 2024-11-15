@@ -12,6 +12,7 @@
 </table>
 
 https://github.com/user-attachments/assets/d90d0604-b2d5-4d41-8c06-17f60a3d24c4
+https://github.com/user-attachments/assets/35900c70-b1d1-459a-9df5-09b24030b30f
 
 ## How It's Made:
 
@@ -36,7 +37,7 @@ Current features of the app include:
 
 
 
-https://github.com/user-attachments/assets/35900c70-b1d1-459a-9df5-09b24030b30f
+
 
 
 
