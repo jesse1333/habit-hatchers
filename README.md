@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/2655cb34-d608-4745-a71d-01a5be7d8550" alt="HabitHatchers Demo" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5b78cca9-cc6b-43bf-a85b-15134ca6eabe" alt="HabitHatchers Demo" width="300"/></td>
     <td>
       Habit Hatchers is a fun, interactive habit-tracking app where you collect "eggs" by completing daily habits. 
       As you collect more eggs, your chicken gets happier, helping you stay motivated to keep track of your progress. 
