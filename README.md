@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src="[https://github.com/user-attachments/assets/04b498d4-fbc5-45f2-8817-4b2e771dd73d](https://github.com/user-attachments/assets/f8b9a7e6-7519-477c-90a1-1731c6e47b20)" alt="HabitHatchers Demo" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c9ba4cdf-234c-4bf0-b9d6-c50d56c54ba9" alt="HabitHatchers Demo" width="300"/></td>
     <td>
       Habit Hatchers is a fun, interactive habit-tracking app where you collect "eggs" by completing daily habits. 
       As you collect more eggs, your chicken gets happier, helping you stay motivated to keep track of your progress. 
@@ -10,8 +10,6 @@
     </td>
   </tr>
 </table>
-
-https://github.com/user-attachments/assets/f8b9a7e6-7519-477c-90a1-1731c6e47b20
 
 https://github.com/user-attachments/assets/d90d0604-b2d5-4d41-8c06-17f60a3d24c4
 
