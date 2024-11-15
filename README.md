@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/5b78cca9-cc6b-43bf-a85b-15134ca6eabe" alt="HabitHatchers Demo" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/04b498d4-fbc5-45f2-8817-4b2e771dd73d" alt="HabitHatchers Demo" width="300"/></td>
     <td>
       Habit Hatchers is a fun, interactive habit-tracking app where you collect "eggs" by completing daily habits. 
       As you collect more eggs, your chicken gets happier, helping you stay motivated to keep track of your progress. 
@@ -10,11 +10,6 @@
     </td>
   </tr>
 </table>
-
-
-https://github.com/user-attachments/assets/366f0122-45a0-4aa5-ad2c-c02b1caec1e3
-
-
 
 ## How It's Made:
 
@@ -36,6 +31,10 @@ Current features of the app include:
 - **Habit Deletion and Recovery**: Users can delete habits, but they also have the option to recover them, offering flexibility in habit management.
 - **Persistent Habit Storage**: Habit data is stored in JSON format, ensuring that progress is maintained across app sessions.
 - **System Notification Reminders**: Reminders can be set, prompting users when it's time to complete or check in on their habits.
+
+
+
+https://github.com/user-attachments/assets/35900c70-b1d1-459a-9df5-09b24030b30f
 
 
 
