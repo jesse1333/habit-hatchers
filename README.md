@@ -18,6 +18,10 @@ https://github.com/user-attachments/assets/f40774dc-74fa-41ab-aabc-8487a2a0c932
 
 
 
+https://github.com/user-attachments/assets/59fc5e16-688f-4629-9022-205983a09f85
+
+
+
 ## How It's Made:
 
 **Tech used:** Swift, SwiftUI, XCode, Figma
