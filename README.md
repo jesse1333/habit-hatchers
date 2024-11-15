@@ -51,8 +51,22 @@ Current features of the app include:
 
 ## Optimizations
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+To enhance both performance and maintainability, I implemented several optimizations:
+
+Persistent File Storage with JSON: Given the small data requirements and offline functionality of the app, I opted for a JSON-based file storage system instead of a traditional database. This decision keeps the app lightweight and fast, while providing easy data retrieval and persistence across sessions instead of the alternative of using a database.
+
+Object-Oriented Programming Principles: I structured the codebase around OOP principles, creating reusable classes and modular components. By encapsulating functionality into specific classes (such as handlers, views, and utility functions), I achieved a more organized, scalable code structure. This modular approach not only makes the code easier to read/maintain but also allows for easier enhancements and improvements in the future.
+
+Efficient View Management: By separating different views and handling their updates with optimized functions, I minimized the workload on the main UI thread, making the application more smooth and interactive for the user.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+This project was a valuable learning experience! By making this project, I...
+
+- deepened my understanding of object-oriented programming by learning how to encapsulate classes effectively. This reinforced the importance of clean, modular code, allowing me to create a more organized and maintainable project structure.
+
+- gained practical experience with JSON file storage, learning how data is structured within JSON to facilitate efficient storage and retrieval. This was a great introduction to handling persistent data without a traditional database.
+
+- learned about the apple programming ecosystem (including Swift, SwiftUI, and XCode) which taught me a lot about how different views work in tandem with data and how said data flows throughout Swift, granting me a better understanding of the pros/cons of SwiftUI's reactive framework when compared to other frameworks like React.
+
+- obtained an understanding of basic UI/UX design, using Figma to prototype a clean and responsive interface. This process taught me about design principles that contribute to an intuitive user experience, such as layout organization, color harmony, and responsive design.
